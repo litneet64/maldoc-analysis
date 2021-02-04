@@ -6,7 +6,7 @@ Contains all the major tools used for MS Office files' analysis:
 
 * ViperMonkey
 * OleDump
-* Yara-Python
+* YARA (and yara-python)
 * Those included in oletools:
   * OleVBA
   * OleDir
