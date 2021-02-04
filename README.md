@@ -1,3 +1,4 @@
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/litneet64/maldoc-analysis) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/litneet64/maldoc-analysis) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/litneet64/maldoc-analysis) ![GitHub](https://img.shields.io/github/license/litneet64/maldoc-analysis)
 # Maldoc Analysis
 Dockerfile for maldoc analysis purposes.
 
@@ -37,6 +38,8 @@ analyst@4bd1ba63266d:/playground$ ./oledump.py ole_files/emotet.doc
 14:     11093 'Macros/VBA/_VBA_PROJECT'
 15:       913 'Macros/VBA/dir'
 16:    134771 'WordDocument'
+analyst@4bd1ba63266d:/playground$
+analyst@4bd1ba63266d:/playground$
 analyst@4bd1ba63266d:/playground$ olevba ole_files/emotet.doc
 .
 . # stripped as output is too long
