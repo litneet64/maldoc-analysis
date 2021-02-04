@@ -12,6 +12,9 @@ RUN mkdir -p $DIR \\
 
 WORKDIR $DIR
 
+# install yara and vim
+RUN apt update && apt install -y yara vim
+
 # download and install tools
 RUN curl https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/oledump.py > oledump.py \
     && chmod +x oledump.py \
