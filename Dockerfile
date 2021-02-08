@@ -16,8 +16,10 @@ WORKDIR $DIR
 RUN apt update && apt install -y yara vim
 
 # download and install tools
-RUN curl https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/oledump.py > oledump.py \
-    && chmod +x oledump.py \
+RUN curl https://didierstevens.com/files/software/oledump_V0_0_58.zip > oledump.zip \
+    && unzip oledump.zip \
+    && rm oledump.zip \
+    && chmod +x *.py \
     && pip install -U https://github.com/decalage2/ViperMonkey/archive/master.zip \
     && pip install olefile oletools yara-python
 

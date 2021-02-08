@@ -6,8 +6,8 @@ Dockerfile for maldoc analysis purposes.
 Contains all the major tools used for MS Office files' analysis:
 
 * ViperMonkey
-* OleDump
-* YARA (and yara-python)
+* OleDump **+** all plugins
+* YARA **+** yara-python
 * Those included in oletools:
   * OleVBA
   * OleDir
@@ -72,3 +72,4 @@ More resources for usage of the tools mentioned above:
 * [OleTools official page](http://www.decalage.info/en/python/oletools)
 * [OleDump official page](https://blog.didierstevens.com/programs/oledump-py/)
 * [ViperMonkey official page](https://www.decalage.info/en/vba_emulation)
+* [Usage of plugin_biff in Oledump (and plugins in general)](https://blog.didierstevens.com/2019/03/15/maldoc-excel-4-0-macro/)
