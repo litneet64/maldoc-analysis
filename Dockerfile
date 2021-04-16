@@ -16,7 +16,7 @@ WORKDIR $DIR
 RUN apt update && apt install -y yara vim
 
 # download and install tools
-RUN curl https://didierstevens.com/files/software/oledump_V0_0_58.zip > oledump.zip \
+RUN curl https://didierstevens.com/files/software/oledump_V0_0_60.zip > oledump.zip \
     && unzip oledump.zip \
     && rm oledump.zip \
     && chmod +x *.py \
