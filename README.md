@@ -16,7 +16,7 @@ Contains all the major tools used for MS Office files' analysis:
 
 ## Usage
 ```bash
-$ podman run -it --rm -v ./my_ole_files:/playgroud/ole_files litneet64/maldoc-analysis
+$ podman run -it --rm -v ./my_ole_files:/playground/ole_files litneet64/maldoc-analysis
 ```
 
 Inside the container, you can use the tools as:
